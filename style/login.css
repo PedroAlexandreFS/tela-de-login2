@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient( 135deg, rgb(27, 3, 13) 30% ,rgb(134, 6, 44) 80% );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu,.login{
+    color: white;
+    text-align: center;
+    height: 80vh;
+    width: 45vh;
+}
+
+.menu{
+    background: black;
+}
+
+
+.menu h2 {
+  margin-top: 15%;
+  margin-bottom: 25%;
+  font-size: 35px;
+}
+
+.menu a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 10%;
+    color: white;
+    display: block;
+    text-decoration: none;
+
+}
+
